@@ -1,0 +1,77 @@
+{
+  "version": 8,
+  "issued_at": "2026-11-02T12:54:26Z",
+  "ttl_seconds": 604800,
+  "api_endpoints": [
+    {
+      "url": "https://net15.online",
+      "priority": 10
+    },
+    {
+      "url": "https://n7vpn.com",
+      "priority": 20
+    },
+    {
+      "url": "https://api.n7vpn.com",
+      "priority": 30
+    },
+    {
+      "url": "https://31.56.117.77",
+      "priority": 50,
+      "sni": "api.n7vpn.com"
+    }
+  ],
+  "pinset": [
+    "sha256/yq92GdGHNyXhFPLAI/q791ax5uF56h6jwGVWL7HWapE=",
+    "sha256/3RE+VCZB5bklce3dET/yVk/hPHNAtaL6VArFO9Gaeak=",
+    "sha256/H6MEeSWjXixG/wh9JMs0wZeGkX4Gm7BMzslYwsaoNeQ=",
+    "sha256/Zsv/Z3kbDCdUKtRPpTF37wCfqPdc/jBpPcRRYZvczaI=",
+    "sha256/LjpnBweiOQX+6rxMiJO91aZtsAjwmyVPB0g7PjOvK0I=",
+    "sha256/mby2wA3ZdVmlRuQ5jdQygcBftnZddA7HFH9LTF46Zi4=",
+    "sha256/TiTAo5xRaY121q3UbXZHqag+PVcnElfYeIvHmW6KnA4=",
+    "sha256/kTvhlE0LuIfdVlv+49TExxgjZeVfAAqvFmiR9LsqzNs="
+  ],
+  "schema_version": 2,
+  "manifest_version": 8,
+  "expires_at": "2026-11-09T12:54:26Z",
+  "key_id": "primary-2026-08",
+  "bootstrap_mirrors": [
+    "https://net15.online/bootstrap.json",
+    "https://n7vpn.com/bootstrap.json",
+    "https://raw.githubusercontent.com/codermontana/connect/main/prod.json",
+    "https://cdn.jsdelivr.net/gh/codermontana/connect@main/prod.json",
+    "https://codermontana.github.io/connect/prod.json",
+    "https://config.n7vpn.com/prod.json"
+  ],
+  "update": {
+    "channel": "stable",
+    "check_interval_seconds": 21600,
+    "min_supported_version": "2.20.46",
+    "version_json_urls": [
+      "https://net15.online/downloads/version.json",
+      "https://n7vpn.com/downloads/version.json"
+    ]
+  },
+  "features": {
+    "remote_config_v2": true,
+    "signed_manifest": true,
+    "update_manifest": true
+  },
+  "kill_switch": {
+    "enabled": false
+  },
+  "maintenance": {
+    "enabled": false
+  },
+  "signatures": [
+    {
+      "key_id": "primary-2026-08",
+      "signature": "ed25519:YUC0xti4JbPy0cHIGyX6A0q4Ux02SxVY+cGRNxtqov14zdEG2gyMJOJJn3lFTjOiZeqXlTWf+jT2/81hfnknCw=="
+    },
+    {
+      "key_id": "backup-2026-08",
+      "signature": "ed25519:MMgLylnSPDJ817vJXl/KklZboCEwO6tlCicRx0EAiDkOOCpSrxLU5G4+YZAuQbpBj4y0F0qL3h3/NfN9UheDDw=="
+    }
+  ],
+  "signature": "ed25519:VpSuekAkr7Rc7IxMIvHNZW9gzzNbgx01W8TMp8tm2azLBbLCW2eu2JeDxYUhTPBanQ/NFX+izHFVq9LOQMiaBw=="
+}
